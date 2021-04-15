@@ -1,0 +1,2 @@
+com/addressbookdbtest/AddressBookDBTest.java
+ com.addressbookdbtest.AddressBookDBTest
