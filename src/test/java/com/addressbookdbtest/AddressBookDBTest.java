@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AddressBookDBTest {
     @Test
-    public void givenThreeContactsInDB_WhenRetrieved_ShouldMatchEmployeeCount() {
+    public void givenContactsInDB_WhenRetrieved_ShouldMatchCount() {
         AddressBookDB addressBookDB = new AddressBookDB();
        List<AddressBookDB> addressBookDBList = addressBookDB.readAddressBookData(AddressBook.IOService.DB_IO);
         Assertions.assertEquals(0, addressBookDBList.size());
